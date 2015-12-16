@@ -1,3 +1,11 @@
+This project is based on GraphChi platform from CMU.
+
+My major job is to add an application function https://github.com/Jinxue/TrueTop/blob/master/example_apps/pagerank.cpp
+to early terminate the PageRank by monitoring the top-K stablity.
+
+For the algorithm details, please check my TON paper: http://arxiv.org/abs/1504.04663,.
+
+
 # GraphChi - disk-based large-scale graph computation
 
 **NOTE: This project has been recently moved from Google Code, and some of the wiki pages might be partly broken.**
