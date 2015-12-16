@@ -1,4 +1,4 @@
-This project is based on GraphChi platform from CMU.
+This project is based on GraphChi platform from CMU (Thanks very much!).
 
 My major job is to add an application function https://github.com/Jinxue/TrueTop/blob/master/example_apps/pagerank.cpp
 to early terminate the PageRank by monitoring the top-K stablity.
