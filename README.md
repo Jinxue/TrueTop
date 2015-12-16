@@ -1,7 +1,7 @@
 This project is based on GraphChi platform from CMU (Thanks very much!).
 
 My major job is to add an application function https://github.com/Jinxue/TrueTop/blob/master/example_apps/pagerank.cpp
-to early terminate the PageRank by monitoring the top-K stablity.
+to early terminate the PageRank by monitoring the top-K stablity, and some supporting files.
 
 For the algorithm details, please check my TON paper: http://arxiv.org/abs/1504.04663,.
 
