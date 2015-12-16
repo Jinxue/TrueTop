@@ -5,6 +5,10 @@ to early terminate the PageRank by monitoring the top-K stablity.
 
 For the algorithm details, please check my TON paper: http://arxiv.org/abs/1504.04663,.
 
+####Run-time performance:
+On our desktop with 3.4GHz Intel-i7 3770 CPU, 16G Memory, a 7200RPM hard disk, and Ubuntu 12.04 LTS, one single iteration of credit distribution took 0.3s, 2.5s, 9.2s, and 17.1s for our four datasets in Table I with 4K, 10K, 1M and 2M nodes, respectively. For a graph with 2M nodes, TrueTop can thus find the top-1000 influential users after 1,000 iterations within less than five hours on
+a commodity PC. Since TrueTop is expected to be run by a service provider with much more powerful computation resources, its runtime performance should be acceptable.
+
 
 # GraphChi - disk-based large-scale graph computation
 
